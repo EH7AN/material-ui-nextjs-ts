@@ -1,6 +1,6 @@
 import {FC} from "react";
 
-import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
 
 import MovieCard from "@/components/MovieCard/MovieCard";
 
@@ -10,14 +10,7 @@ import * as React from "react";
 
 const MovieList: FC = () => {
   return (
-    <Box sx={{
-      display: 'flex',
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      flexWrap: 'wrap',
-      marginTop: 4,
-      cursor: "pointer"
-    }}>
+    <Grid container spacing={4}>
       {
         Movies.map( (movie, index) => (
             <MovieCard
@@ -27,7 +20,7 @@ const MovieList: FC = () => {
           )
         )
       }
-    </Box>
+    </Grid>
   );
 }
 
