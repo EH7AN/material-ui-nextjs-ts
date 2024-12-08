@@ -4,6 +4,7 @@ type MovieData = {
   "director": string;
   "release_year": number,
   "genre": string,
+  "image": string,
   "rating": number
 }
 

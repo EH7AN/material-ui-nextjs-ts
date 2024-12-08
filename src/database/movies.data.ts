@@ -81,4 +81,4 @@ export const Movies = [
   }
 ]
 
-export const MAX_SIZE = 1;
+export const MY_AGE = 17;

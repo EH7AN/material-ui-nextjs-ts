@@ -1,7 +1,7 @@
 'use client'
 import {FC} from "react";
 import { useParams } from 'next/navigation';
-import {Movies} from "@/movies.data";
+import {Movies} from "@/database/movies.data";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";

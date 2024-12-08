@@ -25,7 +25,7 @@ const  MovieCard: FC<MovieType> = (movieData) => {
       <Card sx={{ maxWidth: 345 }} onClick={handleClick}>
       <CardMedia
         sx={{ height: 140 }}
-        image="/images/1.jpg"
+        image={_movieData?.image}
         title={_movieData.title}
       />
       <CardContent sx={{margin: 0}}>

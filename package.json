@@ -16,9 +16,13 @@
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
     "@mui/material-nextjs": "latest",
+    "mysql2": "3.11.4",
     "next": "latest",
+    "next-connect": "^1.0.0",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.6.2"
   },
   "devDependencies": {
     "@types/node": "latest",
@@ -26,6 +30,8 @@
     "@types/react-dom": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
-    "typescript": "latest"
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.3"
   }
 }
